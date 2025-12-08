@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "id": 1, "name": "Sergey", "role": "admin" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Hello", "content": "world" }
+  ]
+}
