@@ -1,8 +1,52 @@
 {
-  "users": [
-    { "id": 1, "name": "Sergey", "role": "admin" }
+  "projects": [
+    {
+      "id": 578763,
+      "projectName": "web service",
+      "quantityTasks": 10,
+      "status": "todo",
+      "createAt": "2025-12-07T17:50:16.191Z"
+    },
+    {
+      "id": 76734,
+      "projectName": "service ai",
+      "quantityTasks": 10,
+      "status": "pause",
+      "createAt": "2025-11-08T11:50:16.191Z"
+    }
   ],
-  "posts": [
-    { "id": 1, "title": "Hello", "content": "world" }
+  "tasks": [
+    {
+      "id": 498589,
+      "taskName": "create project",
+      "performer": "Serhii",
+      "status": "In progress",
+      "deadline": "2025-12-07T17:50:16.191Z",
+      "projectId": 76734
+    },
+    {
+      "id": 498545,
+      "taskName": "review project",
+      "performer": "Artem",
+      "status": "To do",
+      "deadline": "2025-12-07T17:50:16.191Z",
+      "projectId": 76734
+    },
+    {
+      "id": 493459,
+      "taskName": "create project",
+      "performer": "Serhii artem",
+      "status": "In progress",
+      "deadline": "2025-12-07T17:50:16.191Z",
+      "projectId": 578763
+    },
+    {
+      "id": 42336,
+      "taskName": "review project",
+      "performer": "Artem serhii",
+      "status": "To do",
+      "deadline": "2025-12-07T17:50:16.191Z",
+      "projectId": 578763
+    }
   ]
 }
