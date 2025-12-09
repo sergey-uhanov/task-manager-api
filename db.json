@@ -5,14 +5,17 @@
       "projectName": "web service",
       "quantityTasks": 10,
       "status": "todo",
-      "createAt": "2025-12-07T17:50:16.191Z"
+      "createAt": "2025-12-07T17:50:16.191Z",
+      "description": "Реализовано появление сверху вниз, Реализовано закрытие снизу вверх, Анимации написаны через SCSS,  BEM полностью соблюдён"
     },
     {
       "id": 76734,
       "projectName": "service ai",
       "quantityTasks": 10,
       "status": "pause",
-      "createAt": "2025-11-08T11:50:16.191Z"
+      "createAt": "2025-11-08T11:50:16.191Z",
+      "description": "Реализовано появление сверху вниз, Реализовано закрытие снизу вверх, Анимации написаны через SCSS,  BEM полностью соблюдён"
+
     }
   ],
   "tasks": [
