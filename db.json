@@ -42,7 +42,6 @@
     }
   ],
   "tasks": [
-    /* Project 100001 */
     {
       "id": "200001",
       "taskName": "Create project structure",
@@ -84,7 +83,6 @@
       "projectId": "100001"
     },
 
-    /* Project 100002 */
     {
       "id": "200006",
       "taskName": "Train NLP model",
@@ -126,7 +124,6 @@
       "projectId": "100002"
     },
 
-    /* Project 100003 */
     {
       "id": "200011",
       "taskName": "Design mobile layout",
@@ -168,7 +165,6 @@
       "projectId": "100003"
     },
 
-    /* Project 100004 */
     {
       "id": "200016",
       "taskName": "Create charts module",
@@ -210,7 +206,6 @@
       "projectId": "100004"
     },
 
-    /* Project 100005 */
     {
       "id": "200021",
       "taskName": "Implement cart",
