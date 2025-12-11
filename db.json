@@ -1,55 +1,255 @@
 {
   "projects": [
     {
-      "id": 578763,
-      "projectName": "web service",
-      "quantityTasks": 10,
-      "status": "todo",
-      "createdAt": "2025-12-07T17:50:16.191Z",
-      "description": "Реализовано появление сверху вниз, Реализовано закрытие снизу вверх, Анимации написаны через SCSS,  BEM полностью соблюдён"
+      "id": "100001",
+      "projectName": "Web Platform",
+      "quantityTasks": 5,
+      "status": "To do",
+      "createdAt": "2025-12-01T10:20:00.000Z",
+      "description": "Initial setup, project architecture planning and requirement analysis."
     },
     {
-      "id": 76734,
-      "projectName": "service ai",
-      "quantityTasks": 10,
-      "status": "pause",
-      "createdAt": "2025-11-08T11:50:16.191Z",
-      "description": "Реализовано появление сверху вниз, Реализовано закрытие снизу вверх, Анимации написаны через SCSS,  BEM полностью соблюдён"
-
+      "id": "100002",
+      "projectName": "AI Assistant",
+      "quantityTasks": 5,
+      "status": "In progress",
+      "createdAt": "2025-11-15T14:10:00.000Z",
+      "description": "Core AI modules integration and scenario processing optimization."
+    },
+    {
+      "id": "100003",
+      "projectName": "Mobile App",
+      "quantityTasks": 5,
+      "status": "Pause",
+      "createdAt": "2025-10-22T09:00:00.000Z",
+      "description": "UI layout implementation, API connection and offline cache handling."
+    },
+    {
+      "id": "100004",
+      "projectName": "Analytics Dashboard",
+      "quantityTasks": 5,
+      "status": "To do",
+      "createdAt": "2025-12-05T08:45:00.000Z",
+      "description": "Data visualization modules, chart rendering and statistics aggregation."
+    },
+    {
+      "id": "100005",
+      "projectName": "E-commerce System",
+      "quantityTasks": 5,
+      "status": "Done",
+      "createdAt": "2025-09-10T13:30:00.000Z",
+      "description": "Checkout flow finalization, payment gateway integration and QA testing."
     }
   ],
   "tasks": [
+    /* Project 100001 */
     {
-      "id": 498589,
-      "taskName": "create project",
+      "id": "200001",
+      "taskName": "Create project structure",
+      "performer": "Serhii",
+      "status": "To do",
+      "deadline": "2025-12-20T10:00:00.000Z",
+      "projectId": "100001"
+    },
+    {
+      "id": "200002",
+      "taskName": "Configure routing",
+      "performer": "Artem",
+      "status": "In progress",
+      "deadline": "2025-12-22T09:00:00.000Z",
+      "projectId": "100001"
+    },
+    {
+      "id": "200003",
+      "taskName": "Implement login page",
+      "performer": "Oleh",
+      "status": "To do",
+      "deadline": "2025-12-25T12:00:00.000Z",
+      "projectId": "100001"
+    },
+    {
+      "id": "200004",
+      "taskName": "Write documentation",
+      "performer": "Anna",
+      "status": "Done",
+      "deadline": "2025-12-15T15:00:00.000Z",
+      "projectId": "100001"
+    },
+    {
+      "id": "200005",
+      "taskName": "Prepare UI components",
       "performer": "Serhii",
       "status": "In progress",
-      "deadline": "2025-12-07T17:50:16.191Z",
-      "projectId": 76734
+      "deadline": "2025-12-28T09:30:00.000Z",
+      "projectId": "100001"
+    },
+
+    /* Project 100002 */
+    {
+      "id": "200006",
+      "taskName": "Train NLP model",
+      "performer": "Artem",
+      "status": "In progress",
+      "deadline": "2025-12-18T11:00:00.000Z",
+      "projectId": "100002"
     },
     {
-      "id": 498545,
-      "taskName": "review project",
+      "id": "200007",
+      "taskName": "Prepare dataset",
+      "performer": "Olena",
+      "status": "Done",
+      "deadline": "2025-12-10T16:00:00.000Z",
+      "projectId": "100002"
+    },
+    {
+      "id": "200008",
+      "taskName": "Implement API endpoints",
+      "performer": "Serhii",
+      "status": "To do",
+      "deadline": "2025-12-27T10:00:00.000Z",
+      "projectId": "100002"
+    },
+    {
+      "id": "200009",
+      "taskName": "Add conversation memory",
+      "performer": "Artem",
+      "status": "In progress",
+      "deadline": "2025-12-21T14:00:00.000Z",
+      "projectId": "100002"
+    },
+    {
+      "id": "200010",
+      "taskName": "Optimize model performance",
+      "performer": "Oleh",
+      "status": "To do",
+      "deadline": "2025-12-30T18:00:00.000Z",
+      "projectId": "100002"
+    },
+
+    /* Project 100003 */
+    {
+      "id": "200011",
+      "taskName": "Design mobile layout",
+      "performer": "Anna",
+      "status": "Pause",
+      "deadline": "2025-11-30T12:00:00.000Z",
+      "projectId": "100003"
+    },
+    {
+      "id": "200012",
+      "taskName": "Implement navigation",
+      "performer": "Serhii",
+      "status": "To do",
+      "deadline": "2025-12-05T09:00:00.000Z",
+      "projectId": "100003"
+    },
+    {
+      "id": "200013",
+      "taskName": "Offline sync system",
+      "performer": "Artem",
+      "status": "In progress",
+      "deadline": "2025-12-12T14:00:00.000Z",
+      "projectId": "100003"
+    },
+    {
+      "id": "200014",
+      "taskName": "Push notifications",
+      "performer": "Oleh",
+      "status": "To do",
+      "deadline": "2025-12-28T15:00:00.000Z",
+      "projectId": "100003"
+    },
+    {
+      "id": "200015",
+      "taskName": "Integrate API",
+      "performer": "Anna",
+      "status": "Pause",
+      "deadline": "2025-12-31T17:00:00.000Z",
+      "projectId": "100003"
+    },
+
+    /* Project 100004 */
+    {
+      "id": "200016",
+      "taskName": "Create charts module",
+      "performer": "Serhii",
+      "status": "To do",
+      "deadline": "2025-12-23T10:00:00.000Z",
+      "projectId": "100004"
+    },
+    {
+      "id": "200017",
+      "taskName": "Implement filtering",
       "performer": "Artem",
       "status": "To do",
-      "deadline": "2025-12-07T17:50:16.191Z",
-      "projectId": 76734
+      "deadline": "2025-12-26T12:00:00.000Z",
+      "projectId": "100004"
     },
     {
-      "id": 493459,
-      "taskName": "create project",
-      "performer": "Serhii artem",
+      "id": "200018",
+      "taskName": "Connect analytics API",
+      "performer": "Oleh",
       "status": "In progress",
-      "deadline": "2025-12-07T17:50:16.191Z",
-      "projectId": 578763
+      "deadline": "2025-12-30T08:00:00.000Z",
+      "projectId": "100004"
     },
     {
-      "id": 42336,
-      "taskName": "review project",
-      "performer": "Artem serhii",
+      "id": "200019",
+      "taskName": "Create dashboard layout",
+      "performer": "Anna",
+      "status": "Done",
+      "deadline": "2025-12-14T16:00:00.000Z",
+      "projectId": "100004"
+    },
+    {
+      "id": "200020",
+      "taskName": "Export reports",
+      "performer": "Serhii",
       "status": "To do",
-      "deadline": "2025-12-07T17:50:16.191Z",
-      "projectId": 578763
+      "deadline": "2025-12-31T19:00:00.000Z",
+      "projectId": "100004"
+    },
+
+    /* Project 100005 */
+    {
+      "id": "200021",
+      "taskName": "Implement cart",
+      "performer": "Artem",
+      "status": "Done",
+      "deadline": "2025-10-05T12:00:00.000Z",
+      "projectId": "100005"
+    },
+    {
+      "id": "200022",
+      "taskName": "Integrate payments",
+      "performer": "Serhii",
+      "status": "Done",
+      "deadline": "2025-10-12T15:30:00.000Z",
+      "projectId": "100005"
+    },
+    {
+      "id": "200023",
+      "taskName": "Product catalog",
+      "performer": "Oleh",
+      "status": "Done",
+      "deadline": "2025-10-20T11:00:00.000Z",
+      "projectId": "100005"
+    },
+    {
+      "id": "200024",
+      "taskName": "Search functionality",
+      "performer": "Anna",
+      "status": "Done",
+      "deadline": "2025-10-25T09:00:00.000Z",
+      "projectId": "100005"
+    },
+    {
+      "id": "200025",
+      "taskName": "Order tracking",
+      "performer": "Artem",
+      "status": "Done",
+      "deadline": "2025-11-01T08:45:00.000Z",
+      "projectId": "100005"
     }
   ]
 }
